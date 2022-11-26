@@ -26,7 +26,15 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a class="logo" href="./index.html"><span class="logo__element">Web</span>Studio</a>
+        <a class="logo" href="./index.html"
+          ><span class="logo__element">Web</span>Studio</a
+        >
+        <div class="menu menu__d-none">
+          <button class="menu__close-button">
+            <svg class="menu_close-icon" width="40px" height="40px">
+              <use href="./images/icons.svg#close-menu"></use>
+            </svg>
+          </button>
         <nav class="nav">
           <ul class="nav__list">
             <li><a class="nav__link nav__link--active" href="./index.html">Agencja</a></li>
@@ -34,7 +42,18 @@
             <li><a class="nav__link" href="/">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact">
+        </div>
+        <svg class="menu__icon" width="40px" height="40px">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+        <!-- <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link nav__link--active" href="./index.html">Agencja</a></li>
+            <li><a class="nav__link" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="nav__link" href="/">Kontakt</a></li>
+          </ul>
+        </nav> -->
+        <!-- <ul class="contact">
           <li>
             <a class="contact__link" href="/">
               <svg class="contact__icon" width="16px" height="12px">
@@ -51,12 +70,12 @@
               +48 111 111 111
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </header>
     <main>
       <!-- 1rst -->
-      <section class="main-section">
+      <!-- <section class="main-section">
         <div class="container">
           <h1 class="main-section__title">
             EFEKTYWNE ROZWIĄZANIA <br />
@@ -153,9 +172,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
       <!-- 2nd -->
-      <section class="section section--padding">
+      <!-- <section class="section section--padding">
         <div class="container">
           <ul class="section__list">
             <li class="paragraph">
@@ -214,9 +234,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
+
       <!-- 3rd -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section__title">Czym się zajmujemy</h2>
           <ul class="section__list">
@@ -249,9 +270,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
+
       <!-- 4rth -->
-      <section class="section section--background">
+      <!-- <section class="section section--background">
         <div class="container">
           <h2 class="section__title">Nasz zespół</h2>
           <ul class="section__list">
@@ -465,9 +487,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
+
       <!-- 5th -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section__title">Nasi klienci</h2>
           <ul class="section__list">
@@ -515,10 +538,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="footer">
-      <div class="container">
+      <!-- <div class="container">
         <ul class="footer__list">
           <li>
             <a class="logo logo--color" href="/"><span class="logo__element">Web</span>Studio</a>
@@ -596,8 +619,9 @@
             </form>
           </li>
         </ul>
-      </div>
+      </div> -->
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

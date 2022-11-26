@@ -1,0 +1,40 @@
+.menu {
+  position: relative;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  padding: 48px 40px;
+  background-color: var(--third-brand-color);
+}
+
+.menu__d-none {
+  display: none;
+}
+
+.menu__close-button {
+  position: absolute;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  transition: fill var(--transition);
+  &:hover,
+  &:focus {
+    fill: var(--brand-color);
+  }
+}
+
+.menu__icon {
+  cursor: pointer;
+  transition: fill var(--transition);
+  &:hover,
+  &:focus {
+    fill: var(--brand-color);
+  }
+}
