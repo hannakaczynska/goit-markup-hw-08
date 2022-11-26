@@ -1,12 +1,19 @@
 .footer {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 140px;
   background: var(--background-brand-color);
+  text-align: center;
 }
 
 .footer__list {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__address {
@@ -17,7 +24,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 20px;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 .footer__link {
@@ -35,11 +42,7 @@
 }
 
 .footer__item {
-  margin-top: 9px;
-}
-
-.footer__element {
-  margin-left: 70px;
+  margin-top: 8px;
 }
 
 .footer__title {
@@ -48,5 +51,26 @@
   font-size: 14px;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-  margin-top: 12px;
 }
+
+// DESKTOP
+
+// .footer__list {
+//   justify-content: space-between;
+// }
+
+// .footer__element {
+//   margin-left: 70px;
+// }
+
+// .footer__address {
+//   margin-bottom: 9px;
+// }
+
+// .footer__item {
+//   margin-top: 9px;
+// }
+
+// .footer__title {
+//   margin-top: 12px;
+// }

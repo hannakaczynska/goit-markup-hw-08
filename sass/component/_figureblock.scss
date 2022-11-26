@@ -1,27 +1,98 @@
-.figure {
-    margin: 0;
-    background-color: var(--third-brand-color);
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
 .figure__description {
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-align: center;
-    padding: 30px 0 30px;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 30px 0 20px;
 }
 
 .figure__title {
-    font-weight: 500;
-    margin-bottom: 10px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .figure__text {
-    color: var(--second-color);
-    font-weight: 400;
+  color: var(--second-color);
+  font-weight: 400;
 }
+
+.figure {
+  margin: 0;
+  background-color: var(--third-brand-color);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.figure__container--first {
+  max-width: 450px;
+  height: 460px;
+  background-image: url('/images/figure/mobile/figure1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .figure__container--first {
+    background-image: url('/images/figure/mobile/figure1@2x.jpg');
+  }
+}
+
+.figure__container--second {
+  max-width: 450px;
+  height: 460px;
+  background-image: url('/images/figure/mobile/figure2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .figure__container--second {
+    background-image: url('/images/figure/mobile/figure2@2x.jpg');
+  }
+}
+
+.figure__container--third {
+    max-width: 450px;
+    height: 460px;
+    background-image: url('/images/figure/mobile/figure3.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .figure__container--third {
+        background-image: url('/images/figure/mobile/figure3@2x.jpg');
+    }
+}
+
+.figure__container--fourth {
+    max-width: 450px;
+    height: 460px;
+    background-image: url('/images/figure/mobile/figure4.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .figure__container--fourth {
+        background-image: url('/images/figure/mobile/figure4@2x.jpg');
+    }
+}
+
+
+// DESKTOP
+
+// .figure__description {
+//     padding: 30px 0 30px;
+// }

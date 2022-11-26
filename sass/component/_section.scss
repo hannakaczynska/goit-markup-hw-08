@@ -1,9 +1,5 @@
 .section {
-  padding: 94px 0;
-}
-
-.section--padding {
-  padding-bottom: 0;
+  padding: 60px 0;
 }
 
 .section--background {
@@ -12,19 +8,47 @@
 
 .section__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .section__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
   gap: 30px;
 }
+
+.section__list--column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 450px;
+}
+
+// DESKTOP
+
+// .section {
+//   padding: 94px 0;
+// }
+
+// .section--padding {
+//   padding-bottom: 0;
+// }
+
+// .section__title {
+//   font-size: 36px;
+//   line-height: 1.16;
+//   margin-bottom: 50px;
+// }
+
 
 .section__buttons {
   display: flex;

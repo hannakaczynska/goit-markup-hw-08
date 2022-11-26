@@ -2,9 +2,10 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.5;
   display: block;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin: 40px 40px 30px;
+  max-width: 370px;
 }
 
 .form__fieldset {
@@ -89,7 +90,7 @@
 
 .form__checkbox-icon {
   position: absolute;
-  left: 54px;
+  left: 43px;
   top: 0;
   cursor: pointer;
   opacity: 0;
@@ -99,10 +100,28 @@
 }
 
 .form__rules {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.17;
   color: var(--second-color);
   letter-spacing: 0.03em;
   & a {
     color: var(--brand-color);
   }
 }
+
+// DESKTOP
+
+// .form__title{
+//     line-height: 1,17;
+// }
+
+// without margin left and right
+
+// .form__rules {
+//   font-size: 14px;
+//   line-height: 1.71;
+// }
+
+// .form__checkbox-icon {
+//   left: 54px;
+// }

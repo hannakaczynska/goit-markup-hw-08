@@ -35,13 +35,46 @@
               <use href="./images/icons.svg#close-menu"></use>
             </svg>
           </button>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li><a class="nav__link nav__link--active" href="./index.html">Agencja</a></li>
-            <li><a class="nav__link" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="nav__link" href="/">Kontakt</a></li>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li>
+                <a class="nav__link" href="./index.html">Agencja</a>
+              </li>
+              <li>
+                <a class="nav__link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="nav__link" href="/">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="menu__contact">
+            <li>
+              <a class="menu__phone" href="/"> +48 111 111 111 </a>
+            </li>
+            <li>
+              <a class="menu__mail" href="/"> info@devstudio.com </a>
+            </li>
           </ul>
-        </nav>
+          <ul class="menu__footer">
+            <li>
+              <a class="menu__social-link" href="/">Instagram</a>
+            </li>
+            <li class="menu__line">I</li>
+            <li>
+              <a class="menu__social-link" href="/">Twitter</a>
+            </li>
+            <li class="menu__line">I</li>
+            <li></li>
+            <li>
+              <a class="menu__social-link" href="/">Facebook</a>
+            </li>
+            <li class="menu__line">I</li>
+            <li></li>
+            <li>
+              <a class="menu__social-link" href="/">LinkedIn</a>
+            </li>
+          </ul>
         </div>
         <svg class="menu__icon" width="40px" height="40px">
           <use href="./images/icons.svg#icon-menu"></use>
@@ -75,7 +108,7 @@
     </header>
     <main>
       <!-- 1rst -->
-      <!-- <section class="main-section">
+      <section class="main-section">
         <div class="container">
           <h1 class="main-section__title">
             EFEKTYWNE ROZWIĄZANIA <br />
@@ -96,7 +129,9 @@
                   >Zostaw swoje dane w formularzu poniżej</label
                 >
                 <fieldset class="form__fieldset">
-                  <label class="form__label" for="user_name">Imie</label>
+                  <label class="form__label" for="user_name"
+                    >Imie</label
+                  >
                   <svg class="form__icon" width="18px" height="18px">
                     <use href="./images/icons.svg#icon-name"></use>
                   </svg>
@@ -136,8 +171,12 @@
                     required
                   />
                 </fieldset>
-                <fieldset class="form__fieldset form__fieldset--appearance">
-                  <label class="form__label" for="comment">Komentarz</label>
+                <fieldset
+                  class="form__fieldset form__fieldset--appearance"
+                >
+                  <label class="form__label" for="comment"
+                    >Komentarz</label
+                  >
                   <textarea
                     class="form__textarea"
                     name="comment"
@@ -172,10 +211,10 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <!-- 2nd -->
-      <!-- <section class="section section--padding">
+      <section class="section section--padding">
         <div class="container">
           <ul class="section__list">
             <li class="paragraph">
@@ -234,7 +273,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- 3rd -->
       <!-- <section class="section">
@@ -273,18 +312,14 @@
       </section> -->
 
       <!-- 4rth -->
-      <!-- <section class="section section--background">
+      <section class="section section--background">
         <div class="container">
           <h2 class="section__title">Nasz zespół</h2>
           <ul class="section__list">
             <li>
               <figure class="figure">
-                <img
-                  src="./images/img4.jpg"
-                  alt="John Doe Product Designer"
-                  width="270"
-                  height="260"
-                />
+                <div class="figure__container--first"> 
+              </div>
                 <figcaption class="figure__description">
                   <h4 class="figure__title">John Doe</h4>
                   <span class="figure__text">Product Designer</span>
@@ -331,12 +366,8 @@
             </li>
             <li>
               <figure class="figure">
-                <img
-                  src="./images/img5.jpg"
-                  alt="John Doe Frontend Developer"
-                  width="270"
-                  height="260"
-                />
+                <div class="figure__container--second">
+                </div>
                 <figcaption class="figure__description">
                   <h4 class="figure__title">John Doe</h4>
                   <span class="figure__text">Frontend Developer</span>
@@ -383,12 +414,8 @@
             </li>
             <li>
               <figure class="figure">
-                <img
-                  src="./images/img6.jpg"
-                  alt="John Doe Marketing"
-                  width="270"
-                  height="260"
-                />
+                <div class="figure__container--third">
+                </div>
                 <figcaption class="figure__description">
                   <h4 class="figure__title">John Doe</h4>
                   <span class="figure__text">Marketing</span>
@@ -435,12 +462,8 @@
             </li>
             <li>
               <figure class="figure">
-                <img
-                  src="./images/img7.jpg"
-                  alt="John Doe UI Designer"
-                  width="270"
-                  height="260"
-                />
+                <div class="figure__container--fourth">
+                </div>
                 <figcaption class="figure__description">
                   <h4 class="figure__title">John Doe</h4>
                   <span class="figure__text">UI Designer</span>
@@ -487,22 +510,22 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- 5th -->
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="section__title">Nasi klienci</h2>
-          <ul class="section__list">
+          <ul class="section__list section__list--column">
             <li class="logo-icon">
-              <a class="logo-icon__link"href="/">
+              <a class="logo-icon__link" href="/">
                 <svg width="106px" height="60.04px">
                   <use href="./images/icons.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
             <li class="logo-icon">
-              <a class="logo-icon__link "href="/">
+              <a class="logo-icon__link" href="/">
                 <svg width="106px" height="60.04px">
                   <use href="./images/icons.svg#icon-Logo-1"></use>
                 </svg>
@@ -538,10 +561,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <footer class="footer">
-      <!-- <div class="container">
+      <div class="container">
         <ul class="footer__list">
           <li>
             <a class="logo logo--color" href="/"><span class="logo__element">Web</span>Studio</a>
@@ -619,7 +642,7 @@
             </form>
           </li>
         </ul>
-      </div> -->
+      </div>
     </footer>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
