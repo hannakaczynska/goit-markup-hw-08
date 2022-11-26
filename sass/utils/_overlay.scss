@@ -1,0 +1,17 @@
+.product__overlay {
+  position: absolute;
+  top: 298px;
+  width: 370px;
+  height: 294px;
+  color: var(--third-brand-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 49px 45px 49px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  z-index: 1;
+  transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .product:hover & {
+    top: 0px;
+  }
+}

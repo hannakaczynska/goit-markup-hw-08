@@ -1,0 +1,16 @@
+.backdrop {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: transform 250ms;
+    z-index: 3;
+}
+
+.is-hidden {
+    visibility: hidden;
+    transform: scale(2);
+}

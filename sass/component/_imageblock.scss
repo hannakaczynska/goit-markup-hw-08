@@ -1,0 +1,19 @@
+.image {
+  position: relative;
+}
+
+.image__description {
+  position: absolute;
+  height: 70px;
+  width: 370px;
+  top: 224px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--third-brand-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 1;
+}

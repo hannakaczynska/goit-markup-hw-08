@@ -1,0 +1,28 @@
+.paragraph {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.paragraph__title {
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.paragraph__text {
+    color: var(--second-color);
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.paragraph__element {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

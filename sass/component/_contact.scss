@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.contact__link {
+  text-decoration: none;
+  color: var(--second-color);
+  fill: var(--second-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+    fill: var(--brand-color);
+  }
+}
