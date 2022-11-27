@@ -59,39 +59,141 @@
 }
 
 .figure__container--third {
-    max-width: 450px;
-    height: 460px;
-    background-image: url('/images/figure/mobile/figure3.jpg');
-    background-size: cover;
-    background-position: center center;
+  max-width: 450px;
+  height: 460px;
+  background-image: url('/images/figure/mobile/figure3.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .figure__container--third {
-        background-image: url('/images/figure/mobile/figure3@2x.jpg');
-    }
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .figure__container--third {
+    background-image: url('/images/figure/mobile/figure3@2x.jpg');
+  }
 }
 
 .figure__container--fourth {
-    max-width: 450px;
-    height: 460px;
-    background-image: url('/images/figure/mobile/figure4.jpg');
-    background-size: cover;
-    background-position: center center;
+  max-width: 450px;
+  height: 460px;
+  background-image: url('/images/figure/mobile/figure4.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .figure__container--fourth {
-        background-image: url('/images/figure/mobile/figure4@2x.jpg');
-    }
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .figure__container--fourth {
+    background-image: url('/images/figure/mobile/figure4@2x.jpg');
+  }
 }
 
+// TABLET
+@media screen and (min-width: 768px) {
+  .figure__container--first {
+    min-width: 354px;
+    height: 374px;
+    background-image: url('/images/figure/tablet/figure1.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .figure__container--second {
+    min-width: 354px;
+    height: 374px;
+    background-image: url('/images/figure/tablet/figure2.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .figure__container--third {
+    min-width: 354px;
+    height: 374px;
+    background-image: url('/images/figure/tablet/figure3.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+  .figure__container--fourth {
+    min-width: 354px;
+    height: 374px;
+    background-image: url('/images/figure/tablet/figure4.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .figure__container--first {
+    background-image: url('/images/figure/tablet/figure1@2x.jpg');
+  }
+  .figure__container--second {
+    background-image: url('/images/figure/tablet/figure2@2x.jpg');
+  }
+  .figure__container--third {
+    background-image: url('/images/figure/tablet/figure3@2x.jpg');
+  }
+  .figure__container--fourth {
+    background-image: url('/images/figure/tablet/figure4@2x.jpg');
+  }
+}
 
 // DESKTOP
+@media screen and (min-width: 1200px) {
+  .figure__container--first {
+    min-width: 270px;
+    height: 260px;
+    background-image: url('/images/figure/desktop/figure1.png');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .figure__container--second {
+    min-width: 270px;
+    height: 260px;
+    background-image: url('/images/figure/desktop/figure2.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .figure__container--third {
+    min-width: 270px;
+    height: 260px;
+    background-image: url('/images/figure/desktop/figure3.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .figure__container--fourth {
+    min-width: 270px;
+    height: 260px;
+    background-image: url('/images/figure/desktop/figure4.jpg');
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+(min-resolution: 192dpi) and (min-width: 1200px),
+(min-resolution: 2dppx) and (min-width: 1200px) {
+  .figure__container--first {
+    background-image: url('/images/figure/desktop/figure1@2x.png');
+  }
+
+  .figure__container--second {
+    background-image: url('/images/figure/desktop/figure2@2x.jpg');
+  }
+
+  .figure__container--third {
+    background-image: url('/images/figure/desktop/figure3@2x.jpg');
+  }
+
+  .figure__container--fourth {
+    background-image: url('/images/figure/desktop/figure4@2x.jpg');
+  }
+}
+
 
 // .figure__description {
 //     padding: 30px 0 30px;

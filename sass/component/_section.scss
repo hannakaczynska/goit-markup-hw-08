@@ -6,6 +6,10 @@
   background: var(--background-color);
 }
 
+.section--hidden {
+  display: none;
+}
+
 .section__title {
   font-weight: 700;
   font-size: 28px;
@@ -44,12 +48,15 @@
   .section {
     padding: 94px 0;
   }
+  .section--padding {
+    padding-bottom: 0;
+  }
+  .section--hidden {
+    display: block;
+  }
   .section__list {
     flex-direction: row;
     max-width: 1170px;
-  }
-  .section--padding {
-    padding-bottom: 0;
   }
   .section__title {
     font-size: 36px;
