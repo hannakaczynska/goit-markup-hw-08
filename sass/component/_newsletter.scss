@@ -1,56 +1,64 @@
-
 .newsletter__label {
-    color: var(--third-brand-color);
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    margin-top: 12px;
-    display: block;
+  color: var(--third-brand-color);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin-top: 12px;
+  display: block;
 }
 
 .newsletter__element {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .newsletter__input {
-    max-width: 450px;
-    height: 50px;
-    color: var(--third-brand-color);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    padding: 15px 16px;
-    outline: 0;
-    background-color: transparent;
-    margin-right: 12px;
-    margin-top: 20px;
+  max-width: 450px;
+  height: 50px;
+  color: var(--third-brand-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  outline: 0;
+  background-color: transparent;
+  margin-right: 12px;
+  margin-top: 20px;
 }
 
 .submit--change {
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 72px;
-    padding-left: 40px;
-    position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 72px;
+  padding-left: 40px;
+  position: relative;
 }
 
 .newsletter__icon {
-    position: absolute;
-    left: 148px;
-    top: 11px;
-    transition: opacity var(--transition);
+  position: absolute;
+  left: 148px;
+  top: 11px;
+  transition: opacity var(--transition);
 }
 
 .newsletter:has(.submit:hover) .newsletter__icon,
 .newsletter:has(.submit:focus) .newsletter__icon {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
+@media screen and (min-width: 768px) {
+  .newsletter__input {
+    width: 450px;
+  }
+}
 
-
-
-// DESKTOP
-
-// .newsletter__input {
-//     width: 358px;
-// }
+@media screen and (min-width: 1200px) {
+  .newsletter__input {
+    width: 358px;
+  }
+  .newsletter__element {
+    flex-direction: row;
+  }
+  .submit--change {
+    margin-top: 20px;
+  }
+}

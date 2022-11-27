@@ -78,6 +78,15 @@
 
 .section__buttons {
   display: flex;
-  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 450px;
+  column-gap: 8px;
+  row-gap: 15px;
+  justify-content: left;
+}
+
+@media screen and (min-width: 768px) {
+  .section__buttons {
   justify-content: center;
+}
 }

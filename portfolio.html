@@ -26,17 +26,77 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <a class="logo" href="./index.html"><span class="logo__element">Web</span>Studio</a>
-        <nav class="nav">
-          <ul class="nav__list">
-            <li><a class="nav__link" href="./index.html">Agencja</a></li>
+        <a class="logo" href="./index.html"
+          ><span class="logo__element">Web</span>Studio</a
+        >
+        <div class="menu menu__d-none">
+          <button class="menu__close-button">
+            <svg class="menu_close-icon" width="40px" height="40px">
+              <use href="./images/icons.svg#close-menu"></use>
+            </svg>
+          </button>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li>
+                <a class="nav__link" href="./index.html">Agencja</a>
+              </li>
+              <li>
+                <a class="nav__link nav__link--active" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li><a class="nav__link" href="/">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="menu__contact">
             <li>
-              <a class="nav__link nav__link--active" href="./portfolio.html">Portfolio</a>
+              <a class="menu__phone" href="/"> +48 111 111 111 </a>
+            </li>
+            <li>
+              <a class="menu__mail" href="/"> info@devstudio.com </a>
+            </li>
+          </ul>
+          <ul class="menu__footer">
+            <li>
+              <a class="menu__social-link" href="/">Instagram</a>
+            </li>
+            <li class="menu__line">I</li>
+            <li>
+              <a class="menu__social-link" href="/">Twitter</a>
+            </li>
+            <li class="menu__line">I</li>
+            <li></li>
+            <li>
+              <a class="menu__social-link" href="/">Facebook</a>
+            </li>
+            <li class="menu__line">I</li>
+            <li></li>
+            <li>
+              <a class="menu__social-link" href="/">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+        <svg class="menu__icon" width="40px" height="40px">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+        <nav class="nav nav--hidden">
+          <ul class="nav__list">
+            <li>
+              <a
+                class="nav__link nav__link--active"
+                href="./index.html"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li><a class="nav__link" href="/">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact">
+        <ul class="contact contact--hidden">
           <li>
             <a class="contact__link" href="/">
               <svg class="contact__icon" width="16px" height="12px">
@@ -65,16 +125,16 @@
               <button class="button" type="button">Wszystkie</button>
             </li>
             <li>
-              <button class="button" type="button">Strony</button>
+              <button class="button button--second" type="button">Strony</button>
             </li>
             <li>
-              <button class="button" type="button">Aplikacje</button>
+              <button class="button button--third" type="button">Aplikacje</button>
             </li>
             <li>
-              <button class="button" type="button">Dizajn</button>
+              <button class="button button--fourth" type="button">Dizajn</button>
             </li>
             <li>
-              <button class="button" type="button">Marketing</button>
+              <button class="button button--fifth" type="button">Marketing</button>
             </li>
           </ul>
           <ul class="portfolio-section">
@@ -88,7 +148,9 @@
                 />
                 <figcaption class="product__description">
                   <h3 class="product__title">Technocrack</h3>
-                  <span class="product__text">Strona internetowa</span>
+                  <span class="product__text"
+                    >Strona internetowa</span
+                  >
                 </figcaption>
                 <div class="product__overlay">
                   Technocrack jest popularną platformą wykorzystywaną
@@ -107,7 +169,9 @@
                   height="294"
                 />
                 <figcaption class="product__description">
-                  <h3 class="product__title">Grafika New Orlean vs Golden Star</h3>
+                  <h3 class="product__title">
+                    Grafika New Orlean vs Golden Star
+                  </h3>
                   <span class="product__text">Dizajn</span>
                 </figcaption>
                 <div class="product__overlay">
@@ -187,8 +251,12 @@
                   height="294"
                 />
                 <figcaption class="product__description">
-                  <h3 class="product__title">Inspiration has no Borders</h3>
-                  <span class="product__text">Strona internetowa</span>
+                  <h3 class="product__title">
+                    Inspiration has no Borders
+                  </h3>
+                  <span class="product__text"
+                    >Strona internetowa</span
+                  >
                 </figcaption>
                 <div class="product__overlay">
                   Lorem ipsum dolor sit amet consectetur adipisicing
@@ -207,7 +275,9 @@
                   height="294"
                 />
                 <figcaption class="product__description">
-                  <h3 class="product__title">Magazyn Limited Edition</h3>
+                  <h3 class="product__title">
+                    Magazyn Limited Edition
+                  </h3>
                   <span class="product__text">Dizajn</span>
                 </figcaption>
                 <div class="product__overlay">
@@ -266,43 +336,69 @@
       <div class="container">
         <ul class="footer__list">
           <li>
-            <a class="logo logo--color" href="/"><span class="logo__element">Web</span>Studio</a>
+            <a class="logo logo--color" href="/"
+              ><span class="logo__element">Web</span>Studio</a
+            >
             <address class="footer__address">
               m. Warszawa, Aleje Jerozolimskie 21
             </address>
             <ul>
-              <li class="footer_item"><a class="footer__link" href="/">info@example.com</a></li>
-              <li class="footer_item"><a class="footer__link" href="/">+48 111 111 111</a></li>
+              <li class="footer_item">
+                <a class="footer__link" href="/">info@example.com</a>
+              </li>
+              <li class="footer_item">
+                <a class="footer__link" href="/">+48 111 111 111</a>
+              </li>
             </ul>
           </li>
           <li class="footer__element">
             <h5 class="footer__title">DOŁĄCZ DO NAS</h5>
             <ul class="social-icon social-icon--padding">
               <li class="social-icon__item">
-                <a class="social-icon__link social-icon__link--color" href="/">
+                <a
+                  class="social-icon__link social-icon__link--color"
+                  href="/"
+                >
                   <svg class="icone" width="20px" height="20px">
-                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                    <use
+                      href="./images/icons.svg#icon-instagram-2"
+                    ></use>
                   </svg>
                 </a>
               </li>
               <li class="social-icon__item">
-                <a class="social-icon__link social-icon__link--color" href="/">
+                <a
+                  class="social-icon__link social-icon__link--color"
+                  href="/"
+                >
                   <svg width="20px" height="20px">
-                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                    <use
+                      href="./images/icons.svg#icon-twitter-1"
+                    ></use>
                   </svg>
                 </a>
               </li>
               <li class="social-icon__item">
-                <a class="social-icon__link social-icon__link--color" href="/">
+                <a
+                  class="social-icon__link social-icon__link--color"
+                  href="/"
+                >
                   <svg width="20px" height="20px">
-                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                    <use
+                      href="./images/icons.svg#icon-facebook-1"
+                    ></use>
                   </svg>
                 </a>
               </li>
               <li class="social-icon__item">
-                <a class="social-icon__link social-icon__link--color" href="/">
+                <a
+                  class="social-icon__link social-icon__link--color"
+                  href="/"
+                >
                   <svg width="20px" height="20px">
-                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    <use
+                      href="./images/icons.svg#icon-linkedin-1"
+                    ></use>
                   </svg>
                 </a>
               </li>
@@ -310,15 +406,28 @@
           </li>
           <li class="footer__element">
             <form class="newsletter">
-              <label class="newsletter__label" for="newsletter">ZAPISZ SIĘ DO NEWSLETTERA</label>
+              <label class="newsletter__label" for="newsletter"
+                >ZAPISZ SIĘ DO NEWSLETTERA</label
+              >
               <div class="newsletter__element">
-                <input class="newsletter__input" type="email" name="email_newsletter" id="newsletter"
-                  placeholder="E-mail" />
+                <input
+                  class="newsletter__input"
+                  type="email"
+                  name="email_newsletter"
+                  id="newsletter"
+                  placeholder="E-mail"
+                />
                 <button class="submit submit--change" type="submit">
                   Zapisz się
                 </button>
-                <svg class="newsletter__icon" width="24px" height="24px">
-                  <use href="./images/icons.svg#icon-icon-send-1"></use>
+                <svg
+                  class="newsletter__icon"
+                  width="24px"
+                  height="24px"
+                >
+                  <use
+                    href="./images/icons.svg#icon-icon-send-1"
+                  ></use>
                 </svg>
               </div>
             </form>
