@@ -4,8 +4,19 @@
   letter-spacing: 0.03em;
   line-height: 1.5;
   display: block;
-  margin: 40px 40px 30px;
-  max-width: 370px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 370px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form__title {
+    line-height: 1.17;
+    margin-right: 40px;
+    width: 448px;
+    white-space: nowrap;
+  }
 }
 
 .form__fieldset {
@@ -99,6 +110,13 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .form__checkbox-icon {
+    left: 54px;
+    top: 4px;
+  }
+}
+
 .form__rules {
   font-size: 12px;
   line-height: 1.17;
@@ -109,19 +127,9 @@
   }
 }
 
-// DESKTOP
-
-// .form__title{
-//     line-height: 1,17;
-// }
-
-// without margin left and right
-
-// .form__rules {
-//   font-size: 14px;
-//   line-height: 1.71;
-// }
-
-// .form__checkbox-icon {
-//   left: 54px;
-// }
+@media screen and (min-width: 1200px) {
+  .form__rules {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}

@@ -28,6 +28,21 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+.paragraph {
+  max-width: 354px;
+}
+.paragraph__title {
+text-align: left;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.paragraph {
+  max-width: 270px;
+}
+}
+
 // DESKTOP
 
 // .paragraph__title {
@@ -37,6 +52,3 @@
 //     margin-bottom: 10px;
 // }
 
-// .paragraph__element {
-//     width: 270px;
-// }

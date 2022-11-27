@@ -1,9 +1,26 @@
 .contact {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  align-items: center;
+  display: none;
 }
+
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
+
 
 .contact__link {
   text-decoration: none;

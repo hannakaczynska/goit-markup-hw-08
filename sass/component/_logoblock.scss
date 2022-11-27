@@ -8,8 +8,7 @@
   border-radius: 4px;
   cursor: pointer;
   fill: var(--icon-color);
-  transition: border var(--transition),
-    fill var(--transition);
+  transition: border var(--transition), fill var(--transition);
   &:hover,
   &:focus {
     border: 1px solid var(--brand-color);
@@ -17,8 +16,14 @@
   }
 }
 
-// DESKTOP
+@media screen and (min-width: 768px) {
+  .logo-icon__link {
+    width: 226px;
+  }
+}
 
-// .logo-icon__link {
-//   width: 170px;
-// }
+@media screen and (min-width: 1200px) {
+  .logo-icon__link {
+    width: 170px;
+  }
+}
