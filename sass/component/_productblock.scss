@@ -49,7 +49,7 @@
 .product__container--one {
   max-width: 450px;
   height: 294px;
-  background-image: url("/images/product/mobile/product1.jpg");
+  background-image: url("../images/product/mobile/product1.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -58,14 +58,14 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .product__container--one {
-    background-image: url('/images/product/mobile/product1@2x.jpg');
+    background-image: url('../images/product/mobile/product1@2x.jpg');
   }
 }
 
 .product__container--two {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product2.jpg');
+  background-image: url('../images/product/mobile/product2.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -74,14 +74,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--two {
-    background-image: url('/images/product/mobile/product2@2x.jpg');
+    background-image: url('../images/product/mobile/product2@2x.jpg');
   }
 }
 
 .product__container--three {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product3.jpg');
+  background-image: url('../images/product/mobile/product3.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -90,14 +90,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--three {
-    background-image: url('/images/product/mobile/product3@2x.jpg');
+    background-image: url('../images/product/mobile/product3@2x.jpg');
   }
 }
 
 .product__container--four {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product4.jpg');
+  background-image: url('../images/product/mobile/product4.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -106,14 +106,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--four {
-    background-image: url('/images/product/mobile/product4@2x.jpg');
+    background-image: url('../images/product/mobile/product4@2x.jpg');
   }
 }
 
 .product__container--five {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product5.jpg');
+  background-image: url('../images/product/mobile/product5.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -122,14 +122,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--five {
-    background-image: url('/images/product/mobile/product5@2x.jpg');
+    background-image: url('../images/product/mobile/product5@2x.jpg');
   }
 }
 
 .product__container--six {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product6.jpg');
+  background-image: url('../images/product/mobile/product6.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -138,14 +138,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--six {
-    background-image: url('/images/product/mobile/product6@2x.jpg');
+    background-image: url('../images/product/mobile/product6@2x.jpg');
   }
 }
 
 .product__container--seven {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product7.jpg');
+  background-image: url('../images/product/mobile/product7.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -154,14 +154,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--seven {
-    background-image: url('/images/product/mobile/product7@2x.jpg');
+    background-image: url('../images/product/mobile/product7@2x.jpg');
   }
 }
 
 .product__container--eight {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product8.jpg');
+  background-image: url('../images/product/mobile/product8.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -170,14 +170,14 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--eight {
-    background-image: url('/images/product/mobile/product8@2x.jpg');
+    background-image: url('../images/product/mobile/product8@2x.jpg');
   }
 }
 
 .product__container--nine {
   min-width: 450px;
   height: 294px;
-  background-image: url('/images/product/mobile/product9.jpg');
+  background-image: url('../images/product/mobile/product9.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -186,7 +186,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .product__container--nine {
-    background-image: url('/images/product/mobile/product9@2x.jpg');
+    background-image: url('../images/product/mobile/product9@2x.jpg');
   }
 }
 // TABLET
