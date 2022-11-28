@@ -41,7 +41,7 @@
                 <a class="nav__link" href="./index.html">Agencja</a>
               </li>
               <li>
-                <a class="nav__link nav__link--active" href="./portfolio.html"
+                <a class="nav__link" href="./portfolio.html"
                   >Portfolio</a
                 >
               </li>
@@ -82,14 +82,12 @@
         <nav class="nav nav--hidden">
           <ul class="nav__list">
             <li>
-              <a
-                class="nav__link nav__link--active"
-                href="./index.html"
-                >Agencja</a
-              >
+              <a class="nav__link" href="./index.html">Agencja</a>
             </li>
             <li>
-              <a class="nav__link" href="./portfolio.html"
+              <a
+                class="nav__link nav__link--active"
+                href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
@@ -125,27 +123,30 @@
               <button class="button" type="button">Wszystkie</button>
             </li>
             <li>
-              <button class="button button--second" type="button">Strony</button>
+              <button class="button button--second" type="button">
+                Strony
+              </button>
             </li>
             <li>
-              <button class="button button--third" type="button">Aplikacje</button>
+              <button class="button button--third" type="button">
+                Aplikacje
+              </button>
             </li>
             <li>
-              <button class="button button--fourth" type="button">Dizajn</button>
+              <button class="button button--fourth" type="button">
+                Dizajn
+              </button>
             </li>
             <li>
-              <button class="button button--fifth" type="button">Marketing</button>
+              <button class="button button--fifth" type="button">
+                Marketing
+              </button>
             </li>
           </ul>
           <ul class="portfolio-section">
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg1.jpg"
-                  alt="Ekran laptopa przedstawiający stronę internetową."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--one"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">Technocrack</h3>
                   <span class="product__text"
@@ -162,12 +163,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg2.jpg"
-                  alt="Dwóch koszykarzy walczących o piłkę."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--two"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">
                     Grafika New Orlean vs Golden Star
@@ -184,12 +180,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg3.jpg"
-                  alt="Logo restauracji Sea Food."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--three"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">Restauracja Seafood</h3>
                   <span class="product__text">Aplikacja</span>
@@ -204,12 +195,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg4.jpg"
-                  alt="Czarne słuchawki nauszne."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--four"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">Projekt Prime</h3>
                   <span class="product__text">Marketing</span>
@@ -224,12 +210,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg5.jpg"
-                  alt="Białe i brązowe pudełko."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--five"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">Projekt Boxes</h3>
                   <span class="product__text">Aplikacja</span>
@@ -244,12 +225,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg6.jpg"
-                  alt="Ekran laptopa przedstawiający stronę internetową."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--six"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">
                     Inspiration has no Borders
@@ -268,12 +244,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg7.jpg"
-                  alt="Biały papierowy magazyn"
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--seven"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">
                     Magazyn Limited Edition
@@ -290,12 +261,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg8.jpg"
-                  alt="Biała papierowa etykieta."
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--eight"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">Projekt LAB</h3>
                   <span class="product__text">Marketing</span>
@@ -310,12 +276,7 @@
             </li>
             <li>
               <figure class="product">
-                <img
-                  src="./images/pimg9.jpg"
-                  alt="Ekran laptopa przedstawiający stronę internetową"
-                  width="370"
-                  height="294"
-                />
+                <div class="product__container--nine"></div>
                 <figcaption class="product__description">
                   <h3 class="product__title">Growing Business</h3>
                   <span class="product__text">Aplikacja</span>
@@ -419,16 +380,16 @@
                 />
                 <button class="submit submit--change" type="submit">
                   Zapisz się
+                  <svg
+                    class="newsletter__icon"
+                    width="24px"
+                    height="24px"
+                  >
+                    <use
+                      href="./images/icons.svg#icon-icon-send-1"
+                    ></use>
+                  </svg>
                 </button>
-                <svg
-                  class="newsletter__icon"
-                  width="24px"
-                  height="24px"
-                >
-                  <use
-                    href="./images/icons.svg#icon-icon-send-1"
-                  ></use>
-                </svg>
               </div>
             </form>
           </li>

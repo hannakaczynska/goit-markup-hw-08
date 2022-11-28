@@ -1,7 +1,23 @@
 .portfolio-section {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 30px;
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-section {
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
-    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-section {
+    margin-top: 40px;
+  }
 }

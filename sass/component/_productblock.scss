@@ -1,26 +1,29 @@
 .product {
-    position: relative;
-    overflow: hidden;
-    height: 404px;
-    margin: 0;
-    border-bottom: 1px solid rgba(238, 238, 238, 1);
-    border-left: 1px solid rgba(238, 238, 238, 1);
-    border-right: 1px solid rgba(238, 238, 238, 1);
-    transition: box-shadow var(--transition);
+  position: relative;
+  overflow: hidden;
+  height: 404px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+  transition: box-shadow var(--transition);
 
-    &:hover,
-    &:focus {
-        cursor: pointer;
-        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
-        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-    }
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  }
 }
 
 .product__description {
   position: absolute;
   padding: 20px 24px;
-  width: 370px;
+  max-width: 450px;
   height: 110px;
   background-color: var(--third-brand-color);
   top: 294px;
@@ -41,4 +44,294 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   margin-top: 4px;
+}
+
+.product__container--one {
+  max-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .product__container--one {
+    background-image: url('/images/product/mobile/product1@2x.jpg');
+  }
+}
+
+.product__container--two {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product2.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--two {
+    background-image: url('/images/product/mobile/product2@2x.jpg');
+  }
+}
+
+.product__container--three {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product3.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--three {
+    background-image: url('/images/product/mobile/product3@2x.jpg');
+  }
+}
+
+.product__container--four {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product4.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--four {
+    background-image: url('/images/product/mobile/product4@2x.jpg');
+  }
+}
+
+.product__container--five {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product5.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--five {
+    background-image: url('/images/product/mobile/product5@2x.jpg');
+  }
+}
+
+.product__container--six {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product6.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--six {
+    background-image: url('/images/product/mobile/product6@2x.jpg');
+  }
+}
+
+.product__container--seven {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product7.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--seven {
+    background-image: url('/images/product/mobile/product7@2x.jpg');
+  }
+}
+
+.product__container--eight {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product8.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--eight {
+    background-image: url('/images/product/mobile/product8@2x.jpg');
+  }
+}
+
+.product__container--nine {
+  min-width: 450px;
+  height: 294px;
+  background-image: url('/images/product/mobile/product9.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .product__container--nine {
+    background-image: url('/images/product/mobile/product9@2x.jpg');
+  }
+}
+// TABLET
+
+@media screen and (min-width: 768px) {
+  .product__container--one {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--two {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--three {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--four {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+  .product__container--five {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+  .product__container--six {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+  .product__container--seven {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+  .product__container--eight {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+  .product__container--nine {
+    min-width: 354px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+// DESKTOP
+
+@media screen and (min-width: 1200px) {
+  .product__container--one {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--two {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--three {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--four {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--five {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--six {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--seven {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--eight {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .product__container--nine {
+    min-width: 370px;
+    height: 294px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+  }
 }
