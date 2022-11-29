@@ -3,7 +3,7 @@
   flex-direction: column;
   margin-top: 40px;
   gap: 30px;
-  width: 450px;
+  max-width: 450px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -12,12 +12,15 @@
   .portfolio-section {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 30px;
+    min-width: 738px;
   }
 }
+
 
 @media screen and (min-width: 1200px) {
   .portfolio-section {
     margin-top: 40px;
+    min-width: 1170px;
   }
 }
