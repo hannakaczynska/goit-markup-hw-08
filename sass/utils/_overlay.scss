@@ -6,8 +6,9 @@
   color: var(--third-brand-color);
   font-size: 18px;
   font-weight: 400;
-  line-height: 28px;
-  padding: 49px 45px 49px 24px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  padding: 77px 24px;
   background-color: rgba(33, 150, 243, 0.9);
   z-index: 1;
   transition: top var(--transition);
@@ -18,6 +19,14 @@
 
 @media screen and (min-width: 768px) {
   .product__overlay {
-  width: 370px;
+    width: 354px;
+    padding: 49px 24px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  .product__overlay {
+    width: 370px;
+    padding: 49px 45px 49px 24px;
   }
+}
